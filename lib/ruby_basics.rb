@@ -11,7 +11,7 @@ def argue(argument)
 end
 
 def greeting(name, language)
- return "Hello #{name}. We heard you are a great #{language} programmer."
+ puts "#{name}, #{language}"
 end
 
 def return_a_value(phrase = "Nice")
