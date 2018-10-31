@@ -6,8 +6,8 @@ def assign_variable(value)
  name = value
 end
 
-def argue(fixed)
- return "#{fixed}"
+def argue(argument)
+ argument 
 end
 
 def greeting(name, language)
